@@ -2,10 +2,10 @@
 Sample code to retrieve data from Plunet BusinessManager API using Python 3
 
 ## Disclaimer
-The samples run as stand-alone and are written only for educational purposes. They do not include error handling. Also there is almost no recursion for an easy understanding of the code.
+The samples can run stand-alone in Python and are written only for educational purposes. They do not include error handling. Also there is almost no recursion for an easy understanding of the code.
 
 ## Prerequisites
-Libraries utilized: Zeep, Decimal and json
+The following libraries must be installed: Zeep, Decimal and json
 
 ## Samples
 ### customers.py
