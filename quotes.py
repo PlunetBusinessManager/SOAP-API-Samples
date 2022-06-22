@@ -5,7 +5,7 @@ import json
 # SETTINGS
 
 CREDENTIALS = {
-    "qa3": {"BASE_URL": 'https://qa3.plunet.com/', "users": {"apiuser": {"USERNAME": 'API USER', "PASSWORD": 'XXXXXX'}}},  # Please enter your API user here for all capitalized items
+    "myplunet": {"BASE_URL": 'https://www.myplunet.com/', "users": {"apiuser": {"USERNAME": 'API USER', "PASSWORD": 'XXXXXX'}}},  # Please enter your API user here for all capitalized items
 }
 
 PROPERTIES = {
@@ -138,7 +138,7 @@ def write_to_file(data_list, filename):
 
 
 priceline_list = []
-credentials = CREDENTIALS.get("8144")
+credentials = CREDENTIALS.get("myplunet")
 endpoints, uuid = login()
 list_of_quotes = find_quotes_based_on_searchfilter()
 quote_content = retrieve_quote_data()
