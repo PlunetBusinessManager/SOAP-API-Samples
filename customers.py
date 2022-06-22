@@ -4,7 +4,7 @@ import json
 ########################## SETTINGS ########################################
 
 CREDENTIALS = {
-    "qa3": {"BASE_URL": 'https://linktoyourplunet.com/', "users": {"apiuser": {"USERNAME": 'API USER', "PASSWORD": 'XXXXXX'}}}  # Please enter your API user here for all capitalized items
+    "myplunet": {"BASE_URL": 'https://www.myplunet.com/', "users": {"apiuser": {"USERNAME": 'API USER', "PASSWORD": 'XXXXXX'}}}  # Please enter your API user here for all capitalized items
 }
 
 PROPERTIES = {
@@ -97,7 +97,7 @@ def write_to_file(data_list, filename):
     return
 
 
-credentials = CREDENTIALS.get("qa3")
+credentials = CREDENTIALS.get("myplunet")
 endpoints, uuid = login()
 list_customer_properties, list_customer_objects = customer_retrieval()
 write_to_file(list_customer_properties, 'PlunetCustomer_Properties.json')
