@@ -1,4 +1,4 @@
-# Plunet-API-Samples
+# Plunet-API-Python-Samples
 Sample code to retrieve data from Plunet BusinessManager API using Python 3
 
 ## Disclaimer
