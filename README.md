@@ -7,20 +7,9 @@ The samples can rach run *stand-alone* in Python and are written only for educat
 ## License
 Distributed under the MIT License. See LICENSE for more information.
 
-## Prerequisites
-The following libraries must be installed: Zeep, Decimal and json
-
-## Samples
-### customers.py
-The customers.py allows to retrieve customer data alongside with address information and properties. The data is then exported to a json file.
-Please note that there is a settings section to define the target url and some other information
-
-### quotes.py
-The quotes.py allows to retrieve quotes with a certain status alongside with the items and detailed pricelines.
-Please note that there is a settings section to define the target url and some other information
-
-### orders.py
-The quotes.py allows to retrieve quotes with a certain status alongside with the items and detailed pricelines.
-Please note that there is a settings section to define the target url and some other information
-
-
+## Repository Structure
+There are subfolders for samples in different programming languages:
+|Programming Language|Folder|
+|--|--|
+|Python|https://github.com/PlunetBusinessManager/SOAP-API-Samples/tree/main/python|
+|PowerShell|https://github.com/PlunetBusinessManager/SOAP-API-Samples/tree/main/powerShell|
